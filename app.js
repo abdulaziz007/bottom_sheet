@@ -35,7 +35,7 @@ let hideSheet = () => {
 let dragStart = (e) => {
   isDragging = true;
   bottomSheet.classList.add("dragging");
-  //recording intitial y position and sheet height
+  //recording initial y position and sheet height
   startY = e.pageY || e.touches?.[0].pageY;
   startHeight = parseInt(content.style.height);
 };
